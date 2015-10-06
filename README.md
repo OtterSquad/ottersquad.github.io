@@ -1,4 +1,4 @@
-# ottersquad.github.io
+# OUR GR8 WEBSITE
 We have a website.
 
 We can do cool things.
