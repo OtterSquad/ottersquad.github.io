@@ -1,7 +1,7 @@
 # OUR GR8 WEBSITE
-We have a website.
+We sort of have a website.
 
-We can do cool things.
+We can possibly do cool things. If we feel like it.
 
 All hail the FSM
 
