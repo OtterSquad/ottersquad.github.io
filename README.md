@@ -5,4 +5,4 @@ We can possibly do cool things. If we feel like it.
 
 All hail the FSM
 
-![otter](http://ottersquad.github.io/ottersquadimage.png)
+![otter](https://upload.wikimedia.org/wikipedia/en/6/6e/Touched_by_His_Noodly_Appendage.jpg)
