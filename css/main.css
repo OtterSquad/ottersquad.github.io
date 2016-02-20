@@ -1,0 +1,67 @@
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/HA.gif");
+  background-repeat: repeat;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  text-shadow:#fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+p , li{
+  color: #fff;
+}
+a:link, a:visited, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-shadow: -1px -1px #fff, 0 -1px #fff, 1px -1px #fff, -1px 0 #fff, 1px 0 #fff, -1px 1px #fff, 0 1px #fff, 1px 1px #fff;
+  text-decoration: none;
+}
+.menu {
+  display: inline-block;
+  padding: 10px;
+  border-left: 3px dotted #fff;
+  border-right: 3px dotted #fff;
+  border-radius: 10px;
+}
+.booz {   /* PUT ALL THINGS JUNKED UP IN A BOOZ DIV THANX*/
+  -webkit-animation-name: booza;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-weight: bold;
+  background-image: url("../images/gibberish.gif");
+  display: inline-block;
+  color: #fff;
+  text-shadow: -1px -1px #000, 0 -1px #000, 1px -1px #000, -1px 0 #000, 1px 0 #000, -1px 1px #000, 0 1px #000, 0 -1px #000;
+  border: 1px solid #f00;
+  padding: 10px;
+}
+@-webkit-keyframes booza {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    -ms-transform: translate(-3px,2px) rotate(2deg);
+    -webkit-transform: translate(-3px,2px) rotate(2deg);
+    transform: translate(-3px,2px) rotate(2deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(180deg);
+    -ms-transform: translate(1px,-1px) rotate(-3deg);
+    -webkit-transform: translate(1px,-1px) rotate(-3deg);
+    transform: translate(1px,-1px) rotate(-3deg);
+  }
+  500% {
+    -webkit-filter: hue-rotate(360deg);
+    -ms-transform: translate(-3px,2px) rotate(2deg);
+    -webkit-transform: translate(-3px,2px) rotate(2deg);
+    transform: translate(-3px,2px) rotate(2deg);
+  }
+}
+.perfectcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

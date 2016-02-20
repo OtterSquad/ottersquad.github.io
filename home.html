@@ -1,0 +1,71 @@
+<html>
+	<head>
+	  <title>Home - Otter Squad</title>
+	  <link rel="stylesheet" type="text/css" href="css/main.css">
+	  <style>
+	    video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+      }
+      @media screen and (max-device-width: 800px) {
+        html {
+          background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/HA.gif");
+          background-repeat: repeat;
+        }
+        #bgvid {
+            display: none;
+        }
+      }
+	  </style>
+	</head>
+	<body>
+	  <video autoplay loop id="bgvid">
+      <source src="images/skullriot.mp4" type="video/mp4">
+    </video>
+		<center>
+		  <a href="home.html" style="text-decoration:none;"><h1>Otter Squad</h1></a>
+			<a href="projects.html">
+			<div class="menu">
+				Projects
+			</div>
+			</a>
+			&nbsp;
+			<a href="about.html">
+				<div class="menu">
+					About
+				</div>
+			</a>
+			&nbsp;
+			<a href="chat.html">
+				<div class="menu">
+					Chat
+				</div>
+			</a>
+			<br>
+			<br>
+			<div style="width:60%">
+			  <div class="perfectcenter" style="width:300px;">
+  			  <div class="booz">
+    				<p align="left">
+    					The greatest fam on earth
+    				</p>
+    			</div>
+    			<h2><a href="https://github.com/OtterSquad">>> Scope our GitHub <<</a></h2>
+    			<img src="images/aquaotter.png" style="width:59;height:63;">
+  			</div>
+  		</div>
+		</center>
+	</body>
+</html>
