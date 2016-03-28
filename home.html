@@ -1,64 +1,51 @@
+<!DOCTYPE html>
 <html>
 	<head>
-	  <title>Home - Otter Squad</title>
-	  <link rel="stylesheet" type="text/css" href="css/main.css">
-	  <style>
-	    video#bgvid {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        background: url(polina.jpg) no-repeat;
-        background-size: cover;
-      }
-      @media screen and (max-device-width: 800px) {
-        html {
-          background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/HA.gif");
-          background-repeat: repeat;
-        }
-        #bgvid {
-            display: none;
-        }
-      }
-	  </style>
+		<title>Otter Squad - Home</title>
+    <link rel="icon" type="image/png" href="images/aquaotter.png"/>
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+		<script type="text/javascript" src="js/taglines.js"></script>
+		<script type="text/javascript" src="js/newsfeed.js"></script>
+		<script type="text/javascript">
+      var news = [
+      	"Project Anarchy is on Neocities.org!",
+      	"A few pages of the War Garage website has been uploaded to Neocities. <em>Muahahahahahahahah...</em><br><a href=\"http://wargarage.neocities.org/\">View the monolith here.</a>",
+        "Twitter Bot Online and Working!",
+        "We now have out Twitter bot up. It only tweets 2 different sentances and a few pictures, but whatever.<br>View it on the <a href=\"projects.html\">projects</a> page.",
+        "Remaking the Website (again...)",
+        "Don't like it? Fight me <code>Q(>-< Q)</code><br>Let's be honest: The other two sites were crap. I don't want to remember them.<br>This site should also look pretty good on mobile. Hopefully.",
+        "Hello World!",
+        "Testing the news feed!<br>This was made in JavaScript."
+      ];
+		  onload = function() {
+		    addTaglines();
+		    NewsFeed();
+		  }
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-	  <video autoplay loop id="bgvid">
-      <source src="images/skullriot.mp4" type="video/mp4">
-    </video>
 		<center>
-		  <a href="home.html" style="text-decoration:none;"><h1>Otter Squad</h1></a>
-			<a href="projects.html">
-			<div class="menu">
-				Projects
+			<div class="header">
+				<center>
+					<h1 class="banner">Otter Squad</h1>
+					<a href="javascript:void(0);" onClick="addTaglines();">
+					  <div id="taglines"><h2>Error: Can't load taglines.js!</h2></div>
+					</a>
+				</center>
 			</div>
-			</a>
-			&nbsp;
-			<a href="about.html">
-				<div class="menu">
-					About
-				</div>
-			</a>
-			&nbsp;
-			<a href="chat.html">
-				<div class="menu">
-					Chat
-				</div>
-			</a>
-			<br>
-			<br>
-			<div style="width:60%">
-			  <div class="perfectcenter" style="width:300px;">
-	    			<img src="images/aquaotter.png" style="width:59;height:63;">
-  			</div>
+			<div class="menuBar">
+				<a href="home.html"><div class="menuBarItemCurrent">Home</div></a>
+				<a href="projects.html"><div class="menuBarItem">Projects</div></a>
+				<a href="chat.html"><div class="menuBarItem">Chat</div></a>
+				<a href="about.html"><div class="menuBarItem">About</div></a>
+			</div>
+  		<div class="content">
+  		  <center>
+  		    <h2>Recent News</h2>
+  		  </center>
+  		  <div id="newsfeed"><h2>Error: Can't load newsfeed.js!</h2></div>
   		</div>
 		</center>
 	</body>

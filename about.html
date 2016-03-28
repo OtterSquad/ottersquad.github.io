@@ -1,58 +1,68 @@
+<!DOCTYPE html>
 <html>
 	<head>
-	  <title>About - Otter Squad</title>
-	  <link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Otter Squad - About</title>
+    <link rel="icon" type="image/png" href="images/aquaotter.png"/>
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+		<script type="text/javascript" src="js/taglines.js"></script>
+		<script type="text/javascript">
+		  onload = function() {
+		    addTaglines();
+		  }
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<center>
-		  <a href="home.html" style="border:none;"><h1>Otter Squad</h1></a>
-			<a href="projects.html">
-			<div class="menu">
-				Projects
+			<div class="header">
+				<center>
+					<h1 class="banner">Otter Squad</h1>
+					<a href="javascript:void(0);" onClick="addTaglines();">
+					  <div id="taglines"><h2>Error: Can't load taglines.js!</h2></div>
+					</a>
+				</center>
 			</div>
-			</a>
-			&nbsp;
-			<a href="about.html">
-				<div class="menu">
-					About
-				</div>
-			</a>
-			&nbsp;
-			<a href="chat.html">
-				<div class="menu">
-					Chat
-				</div>
-			</a>
-			<br>
-			<br>
-			<div style="width:60%">
-			  <h3>We are Otter Squad</h3>
-				<p align="left">
-					We are a small collective hailing from PCEP.<br>
-					We take pride in the stash we make.<br>
-					Find us at Apps club or HTML club if you're up to it.<br>
-				</p>
-				<hr>
-				<h3>members:</h3>
-				<ul align="left">
-				  <a href="https://www.youtube.com/watch?v=-h5WrWncDZw" style="text-shadow:none;">
-  				  <li>
-  				    <b>RabidOtter</b> <sub>aka</sub> <b>DCI CEO</b><br>
-  				    Nintendo boi & top dawg<br>
-  				    makes web pages & sells @rt<br>
-  				  </li>
-				  </a>
-				  <br>
-				  <a href="http://adkim147.github.io/" style="text-shadow:none;">
-  				  <li>
-  				    <b>adkim147</b> <sub>aka</sub> <b>H00G3</b><br>
-  				    keybored magician that lives for cat pics<br>
-  				    web pages 'n' etc.<br>
-  				  </li>
-  				</a>
-				</ul>
-				<img src="images/whatevs.png" style="transform:rotate(10deg);">
+			<div class="menuBar">
+				<a href="home.html"><div class="menuBarItem">Home</div></a>
+				<a href="projects.html"><div class="menuBarItem">Projects</div></a>
+				<a href="chat.html"><div class="menuBarItem">Chat</div></a>
+				<a href="about.html"><div class="menuBarItemCurrent">About</div></a>
 			</div>
+  		<div class="content">
+  		  <center>
+  		    <h2>Welcome to the Hood</h2>
+  		  </center>
+  		  <div class="innerContent">
+  		    <h2>Bio</h2>
+  		    <p>
+  		      Otter Squad is a small group from the Park that pushes out web pages and other crazy junk projects on occasion. They originated from the depths of boredom (Apps Club) and are currently working to perfect their plan to take over the HTML Club. They have <em>absolutely</em> no chill.<br>
+  		      <br>
+  		      They're still cool with Anime Club, but is Anime Club down with them?
+  		    </p>
+  		    <hr>
+  		    <h2>Members</h2>
+  		    <ul>
+  		      <li>
+  		        <h4>Alex <sub>aka</sub> RabidOtter</h4>
+  		        <p>Nintendo junkie with a feel for breaking JavaScript</p>
+  		      </li>
+  		      <li>
+  		        <a href="https://adkim147.github.io"><h4>Alex <sub>aka</sub> H00G3</h4></a>
+  		        <p>Some kid feeding off the power of the internet</p>
+  		      </li>
+  		    </ul>
+  		    <hr>
+  		    <h2>Links</h2>
+  		    <p>
+  		    	<a href="https://github.com/OtterSquad">GitHub</a>
+  		    </p>
+  		    <hr>
+  		    <center>
+  		      <h1><code>THIS WEBSITE SMELLS LIKE CHOCOLATE</code></h1>
+  		    </center>
+  		  </div>
+  		</div>
 		</center>
 	</body>
 </html>

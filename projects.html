@@ -1,38 +1,71 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Projects - Otter Squad</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-<center>
-<a href="home.html" style="border:none;"><h1>Otter Squad</h1></a>
-<a href="projects.html">
-<div class="menu">
-Projects
-</div>
-</a>
-&nbsp;
-<a href="about.html">
-<div class="menu">
-About
-</div>
-</a>
-&nbsp;
-<a href="chat.html">
-<div class="menu">
-Chat
-</div>
-</a>
-<br>
-<br>
-<div style="width:60%">
-<h3>Projects</h3>
-<p align="left">
-<a href="http://pcepht.ml/">HTML Club webpage</a>
-</p>
-</div>
-</center>
-</body>
+	<head>
+		<title>Otter Squad - Projects</title>
+    <link rel="icon" type="image/png" href="images/aquaotter.png"/>
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+		<script type="text/javascript" src="js/taglines.js"></script>
+		<script type="text/javascript">
+		  onload = function() {
+		    addTaglines();
+		  }
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<center>
+			<div class="header">
+				<center>
+					<h1 class="banner">Otter Squad</h1>
+					<a href="javascript:void(0);" onClick="addTaglines();">
+					  <div id="taglines"><h2>Error: Can't load taglines.js!</h2></div>
+					</a>
+				</center>
+			</div>
+			<div class="menuBar">
+				<a href="home.html"><div class="menuBarItem">Home</div></a>
+				<a href="projects.html"><div class="menuBarItemCurrent">Projects</div></a>
+				<a href="chat.html"><div class="menuBarItem">Chat</div></a>
+				<a href="about.html"><div class="menuBarItem">About</div></a>
+			</div>
+  		<div class="content">
+  		  <center>
+  		    <h2>Check Our Style</h2>
+  		  </center>
+  		  <div class="innerContent">
+  		    <center>
+  		      <a href="http://wargarage.neocities.org/"><h2>War Garage</h2><img src="images/wb.png" width="100%" height="405"></a>
+  		    </center>
+  		    <hr>
+  		    <p>
+  		      A website celebrating ANARCHY and CYBERPUNK.
+  		    </p>
+  		  </div>
+  		  <br>
+  		  <div class="innerContent">
+  		    <center>
+  		      <a href="http://pcepht.ml"><h2>HTML Club Website</h2></a>
+  		      <iframe src="http://pcepht.ml" width="100%" height="300px"></iframe>
+  		    </center>
+  		    <hr>
+  		    <p>
+  		      Built by H00G3 in a few days. No sweat.
+  		    </p>
+  		  </div>
+  		  <br>
+  		  <div class="innerContent">
+  		    <center>
+  		      <a href="https://twitter.com/Otter_Squad"><h2>Tracery Twitter Bot</h2></a>
+  		      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Otter_Squad" data-widget-id="661269422200504320">Tweets by @Otter_Squad</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  		    </center>
+  		    <hr>
+  		    <p>
+  		      Runs off <a href="http://cheapbotsdonequick.com/">Cheap Bots, Done Quick!</a> since we don't have our own server. Tracery source can be found <a href="http://cheapbotsdonequick.com/source/Otter_Squad">here</a>.
+  		    </p>
+  		  </div>
+  		</div>
+		</center>
+	</body>
 </html>
-
-<!-- if we ever make a few projects to fill the page, it would be cool to style with https://github.com/tholman/tileJs -->

@@ -1,70 +1,117 @@
 body {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/HA.gif");
-  background-repeat: repeat;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  text-shadow:#fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+  background-image: url("../images/bg.jpg");
+  background-attachment: fixed;
+  background-color: #4A2500;
+  margin: 0;
 }
-p , li{
-  color: #fff;
+p, li {
+  font-family: 'GoodDog', "Comic Sans MS", cursive, sans-serif;
+  font-size: 22px;
+  margin: 0;
 }
 a:link, a:visited, a:active {
   color: #fff;
-  text-decoration: none;
 }
 a:hover {
-  color: #000;
-  text-shadow: -1px -1px #fff, 0 -1px #fff, 1px -1px #fff, -1px 0 #fff, 1px 0 #fff, -1px 1px #fff, 0 1px #fff, 1px 1px #fff;
   text-decoration: none;
 }
-::selection {
-  background: #f00;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'KaushanScript', "Times New Roman", Times, serif;
 }
-.menu {
-  display: inline-block;
-  padding: 10px;
-  border-left: 3px dotted #fff;
-  border-right: 3px dotted #fff;
+hr {
+  background-color: #4A2500;
+  border: none;
+  height: 2px;
+}
+iframe {
+  border: 2px dashed #4A2500;
+  border-radius: 5px;
+}
+.header {
+  margin: 0;
+}
+.content {
+  background-color: #A16B35;
   border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  text-align: left;
 }
-.booz {   /* PUT ALL THINGS JUNKED UP IN A BOOZ DIV THANX*/
-  -webkit-animation-name: booza;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  font-weight: bold;
-  background-image: url("../images/gibberish.gif");
-  display: inline-block;
-  color: #fff;
-  text-shadow: -1px -1px #000, 0 -1px #000, 1px -1px #000, -1px 0 #000, 1px 0 #000, -1px 1px #000, 0 1px #000, 0 -1px #000;
-  border: 1px solid #f00;
+@media (min-width: 900px) {
+  .content {
+    width: 800px;
+  }
+}
+.innerContent {
+  color: #4A2500;
+  background-color: #fff;
+  border: 2px solid #4A2500;
+  border-radius: 5px;
   padding: 10px;
 }
-@-webkit-keyframes booza {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-    -ms-transform: translate(-3px,2px) rotate(2deg);
-    -webkit-transform: translate(-3px,2px) rotate(2deg);
-    transform: translate(-3px,2px) rotate(2deg);
-  }
-  50% {
-    -webkit-filter: hue-rotate(180deg);
-    -ms-transform: translate(1px,-1px) rotate(-3deg);
-    -webkit-transform: translate(1px,-1px) rotate(-3deg);
-    transform: translate(1px,-1px) rotate(-3deg);
-  }
-  500% {
-    -webkit-filter: hue-rotate(360deg);
-    -ms-transform: translate(-3px,2px) rotate(2deg);
-    -webkit-transform: translate(-3px,2px) rotate(2deg);
-    transform: translate(-3px,2px) rotate(2deg);
-  }
+.innerContent a{
+  color: #4A2500;
 }
-.perfectcenter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+/* Font Imports */
+
+@font-face {
+  font-family: 'GoodDog';
+  src: url('../fonts/GoodDog.otf') format('opentype');
+}
+@font-face {
+  font-family: 'KaushanScript';
+  src: url('../fonts/KaushanScript-Regular.otf') format('opentype');
+}
+
+/* Menu Bar Junk Below */
+
+.menuBar {
+  font-family: 'GoodDog', "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  margin: 0;
+  padding: 0;
+}
+.menuBar a {
+  text-decoration: none;
+}
+.menuBarItem {
+  color: #fff;
+  background-color: rgba(74,37,0,.75);
+  display: inline-block;
+  border: 3px solid #fff;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  -webkit-transition: color .3s, background-color .3s;
+  transition: color .3s, background-color .3s;
+}
+.menuBarItem:hover, .menuBarItemCurrent {
+  color: #fff;
+  background-color: #A16B35;
+  display: inline-block;
+  border: 3px solid #A16B35;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media (max-width: 400px) {
+  .menuBarItem, .menuBarItem:hover, .menuBarItemCurrent {
+    display: block;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+  }
 }
