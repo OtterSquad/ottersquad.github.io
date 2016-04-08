@@ -1,4 +1,13 @@
-var taglines = ["0tter $quad 4 Lyfe", "The Greatest Fam on Earth", "Long Live The Holy FSM!", "Some Resident Street Punks", "Welcome to the Hive Mind", "The End is Nigh", "Neo-L.A. Night Life", "Normal is B O R I N G", "We Don't Care", "Wild Animals Reside", "Bustin' a Move", "Boots to the Ceiling~", "Who Watches the Watchmen?", "<('-' <) <( '-' )> (> '-')>", "Remember the Dreamcast?", "Down 2 Ryd, Born 2 Dye", "Far out, man.", "We way out here.", "Watch the word, with Perd", "Down with city hall", "we could rule this city spiderman", "Stop vaping, move on to crack", "Daydreams @ Night", "Otters Never Die", "Pushin' Real Style", "Miss me?", "Can't stop me, foo'.", "EST 2015", "Flippin' your lunch tables~", "L0CALS ~ ALL ACCE$$", "Freedom Forever", "The Nightman Cometh", "Dayman: Fighter of the Nightman", "Jolly Cooperation", "ALEx is Useless", "Let me out of here", "Ua mwenyewe", "What is Love", "Make it Rain", "&#x1f41f; &nbsp; &#x1f41f;&#x1f41f; &nbsp; <span style=\"color: red;\">&#x1f41f;</span> &nbsp; <span style=\"color: blue;\">&#x1f41f;</span>"];
+<!--
+
+Rules and Guidelines on Adding Taglines:
+ - NO DRUG REFERENCES!
+ - Nothing obviously obscene
+ - Proper heading format (capitalize all words except common ones)
+
+-->
+
+var taglines = ["0tter $quad 4 Lyfe", "The Greatest Fam on Earth", "Long Live The Holy FSM!", "Some Resident Street Punks", "Welcome to the Hive Mind", "The End is Nigh", "Neo-L.A. Night Life", "Normal is B O R I N G", "We Don't Care", "Wild Animals Reside", "Bustin' a Move", "Boots to the Ceiling~", "Who Watches the Watchmen?", "<('-' <) <( '-' )> (> '-')>", "Remember the Dreamcast?", "Down 2 Ryd, Born 2 Dye", "Far out, man.", "We way out here.", "Watch the Word, with Perd", "Down with City Hall", "We Could Rule This City, Spiderman", "Daydreams @ Night", "Otters Never Die", "Pushin' Real Style", "Miss me?", "Can't stop me, foo'.", "EST 2015", "Flippin' your lunch tables~", "L0CALS ~ ALL ACCE$$", "Freedom Forever", "The Nightman Cometh", "Dayman: Fighter of the Nightman", "Jolly Cooperation", "ALEx is Useless", "Let me out of here", "Ua mwenyewe", "What is Love", "Make it Rain", "&#x1f41f; &nbsp; &#x1f41f;&#x1f41f; &nbsp; <span style=\"color: red;\">&#x1f41f;</span> &nbsp; <span style=\"color: blue;\">&#x1f41f;</span>", "Trouble on my Mind", "Sickeningly Slick", "Toast & Toast & Toast", "Don't Flop", "31337 H4X0RZ", "Rock & Rick Roll", "Earthbound from Mars", "Crash Landed", "Who Cares", "Kickflip", "Nose Grind", "Cookies & Cream", "Ribbit", "BOOM SHAKA LAKA", "F'Ting!", "Hangin' Out", "No Wimping Allowed", "Ouch"];
 var rando = -1;
 var currentTagline = -1;
 
