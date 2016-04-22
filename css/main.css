@@ -97,9 +97,9 @@ iframe {
 }
 .menuBarItem:hover, .menuBarItemCurrent {
   color: #fff;
-  background-color: #A16B35;
+  background-color: #00D640;
   display: inline-block;
-  border: 3px solid #A16B35;
+  border: 3px solid #00D640;
   border-top-left-radius: 80px;
   border-bottom-right-radius: 80px;
   padding: 20px;
