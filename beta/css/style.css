@@ -1,0 +1,37 @@
+html, body {
+	color: #753b00;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-y: scroll;
+}
+a {
+	color: #753b00;
+}
+.fullpage {
+	width: 100%;
+	height: 100%;
+}
+.perfectcentercontainer {
+	position: relative;
+}
+.perfectcenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.luckiestguy {
+	font-family: 'Luckiest Guy', cursive;
+}
+.pointer {
+	cursor: pointer;
+}
+.egg {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
